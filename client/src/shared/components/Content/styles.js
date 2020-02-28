@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: auto;
   margin-top: 131px;
+  background-color: #242426;
   ${props => props.styling}
 `;
 

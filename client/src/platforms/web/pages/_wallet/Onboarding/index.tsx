@@ -1,7 +1,7 @@
 import { Details } from "shared/pages/_wallet/Onboarding";
 
 import React, { Component } from "react";
-import Onboarding from "../../../../../shared/components/_Onboarding/index";
+import Onboarding from "../../../../../shared/components/_Onboarding";
 import TxHistoryWeb from "../../../components/TxHistory";
 import { connect } from "react-redux";
 import Accounts from "../../../../../constants/assets";
@@ -12,8 +12,8 @@ import Page from "../../../../../shared/components/_layout/page";
 import Header from "../../../../../shared/components/Header/Animated";
 import Content from "../../../../../shared/components/Content";
 
-import List from "../../../../../shared/components/_Lists/Onboarding";
-import ListContainer from "../../../../../shared/components/_Lists/Onboarding/Container";
+import List from "../../../../../shared/components/_Onboarding/UI/List";
+import ListContainer from "../../../../../shared/components/_Onboarding/UI/List/Container";
 import P from "../../../../,./../../shared/components/_Text/P";
 
 class DetailsWebContainer extends Component<any, any> {

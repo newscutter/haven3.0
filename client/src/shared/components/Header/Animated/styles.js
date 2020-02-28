@@ -22,5 +22,4 @@ export const Button = styled.div`
   height: 40px;
   cursor: pointer;
   float: right;
-  display: flex;
 `;

@@ -8,7 +8,7 @@ const Button = React.forwardRef((props, ref) => (
   <Container
     highlight={props.highlight}
     detail={props.detail}
-    settings={props.settings}
+    small={props.small}
     styling={props.styling}
     onClick={props.onClick}
     disabled={props.disabled}

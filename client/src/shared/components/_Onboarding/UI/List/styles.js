@@ -1,14 +1,4 @@
 import styled from "styled-components";
-import ChevronIcon from "../../../../assets/icons/right-white.png";
-
-// export const Container = styled.div`
-//   width: calc(100% - 40px);
-//   padding: 20px;
-//   background-color: #363638;
-//   z-index: 200;
-//   height: 38px;
-//   box-sizing: content-box;
-// `;
 
 export const Container = styled.div`
   width: calc(100% - 40px);

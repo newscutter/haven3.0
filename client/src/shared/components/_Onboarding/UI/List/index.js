@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Container, Symbol, Names, Information, Chevron } from "./styles";
-import S from "../../_Text/S";
-import P from "../../_Text/P";
-import H4 from "../../_Text/H4";
+import S from "../../../_Text/S";
+import P from "../../../_Text/P";
+import H4 from "../../../_Text/H4";
 
 const List = props => {
   return (

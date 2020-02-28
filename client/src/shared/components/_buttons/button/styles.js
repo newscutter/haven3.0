@@ -8,14 +8,14 @@ export const Container = styled.button`
   border-radius: 10px;
   font-size: 13px;
   font-weight: 500;
-  padding: ${props => (props.settings ? "9px 18px" : "12px 20px ")}}
+  padding: ${props => (props.small ? "9px 18px" : "12px 20px ")}}
   border: none;
   display: flex;
   justify-content: center;
   text-decoration: none;
   transition: 500ms;
   outline: none;
-  ${props => (props.settings ? "float:right" : "")}
+  ${props => (props.small ? "float:right" : "")}
   
   &:hover {
     background-color: ${props =>
