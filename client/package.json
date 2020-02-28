@@ -29,7 +29,7 @@
     "start:desktop:mainnet": "sh -ac '. ./env/.env.mainnet; . ./env/.env.desktop; react-scripts start'",
     "start:desktop:testnet": "sh -ac '. ./env/.env.testnet; . ./env/.env.desktop; react-scripts start'",
     "start:web:mainnet": "sh -ac '. ./env/.env.mainnet; . ./env/.env.web; react-scripts start'",
-    "predeploy:web:mainnet": " sh -ac '. ./env/.env.mainnet; . ./env/.env.web; npm run build'",
+    "predeploy:web:mainnet": " sh -ac '. ./env/.env.mainnet; . ./env/.env.web; react-scripts build'",
     "deploy:web:mainnet": "sh -ac '. ./env/.env.mainnet; . ./env/.env.web;  gh-pages -d build'",
     "start:web:testnet": "sh -ac '. ./env/.env.testnet; . ./env/.env.web; react-scripts start'",
     "build:web:testnet": "sh -ac '. ./env/.env.testnet; . ./env/.env.web; npm version patch; react-scripts build'",
