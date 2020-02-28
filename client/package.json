@@ -1,6 +1,6 @@
 {
   "name": "haven_web_wallet",
-  "version": "1.39.0",
+  "version": "1.40.0",
   "private": true,
   "homepage": "https://newscutter.github.io/haven3.0",
   "dependencies": {
