@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ChevronIcon from "../../../../../assets/icons/right-white.png";
+import ChevronIcon from "../../../../assets/icons/right-white.png";
 
 // export const Container = styled.div`
 //   width: calc(100% - 40px);
@@ -12,9 +12,10 @@ import ChevronIcon from "../../../../../assets/icons/right-white.png";
 
 export const Container = styled.div`
   width: calc(100% - 80px);
-  margin: 0px;
+  margin: 0px 0px 1px 0px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
+
+  background-color: #363638;
   transition: 500ms;
   box-sizing: content-box;
   display: flex;
@@ -27,24 +28,15 @@ export const Container = styled.div`
   &:last-of-type {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
-
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+    margin: 0px;
   }
 
   ${props => props.styling}
 `;
 
-export const Icon = styled.div`
+export const Symbol = styled.div`
   width: 34px;
-  height: 34px;
-  background-image: url(${props => props.icon});
-  background-size: 28px;
   opacity: 0.5;
-  background-position: center;
-  background-repeat: no-repeat;
 `;
 
 export const Names = styled.div`
@@ -54,15 +46,4 @@ export const Names = styled.div`
 
 export const Information = styled.div`
   width: calc(100% - 217px);
-`;
-
-export const Chevron = styled.div`
-  width: 34px;
-  height: 34px;
-  margin: 0px -10px 0px 0px;
-  background-image: url(${ChevronIcon});
-  background-size: 13px;
-  opacity: 0.5;
-  background-position: center;
-  background-repeat: no-repeat;
 `;

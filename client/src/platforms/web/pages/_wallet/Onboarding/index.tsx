@@ -11,7 +11,7 @@ import Header from "../../../../../shared/components/Header/Animated";
 import Content from "../../../../../shared/components/Content";
 
 import List from "../../../../../shared/components/_Lists/Onboarding";
-import ListContainer from "../../../../../shared/components/_Settings/UI/List/Container";
+import ListContainer from "../../../../../shared/components/_Lists/Onboarding/Container";
 import P from "../../../../,./../../shared/components/_Text/P";
 
 class DetailsWebContainer extends Component<any, any> {
@@ -29,21 +29,20 @@ class DetailsWebContainer extends Component<any, any> {
     );
     let nationalCurrenciesList = nationalCurrencies.map(account => {
       return (
-        <ListContainer>
-          <List
-            key={account.ticker}
-            name={account.token}
-            subname={account.ticker + " Wallet"}
-            // <Button
-            //   // type={[
-            //   //   "Button-Small",
-            //   //   account.visible ? "Button-Default" : "Button-Highlight"
-            //   // ].join(" ")}
-            //   label="ADDED"
-            //   onClick={() => this.props.visibleaccounts(account.ticker)}
-            //   styling={"float: right"}
-          />
-        </ListContainer>
+        <List
+          key={account.ticker}
+          symbol={account.symbol}
+          name={account.token}
+          subname={account.ticker + " Wallet"}
+          // <Button
+          //   // type={[
+          //   //   "Button-Small",
+          //   //   account.visible ? "Button-Default" : "Button-Highlight"
+          //   // ].join(" ")}
+          //   label="ADDED"
+          //   onClick={() => this.props.visibleaccounts(account.ticker)}
+          //   styling={"float: right"}
+        />
       );
     });
 
@@ -52,13 +51,12 @@ class DetailsWebContainer extends Component<any, any> {
     );
     let preciousMetalsList = preciousMetals.map(account => {
       return (
-        <ListContainer>
-          <List
-            key={account.ticker}
-            name={account.token}
-            subname={account.ticker + " Wallet"}
-          />
-        </ListContainer>
+        <List
+          key={account.ticker}
+          symbol={account.symbol}
+          name={account.token}
+          subname={account.ticker + " Wallet"}
+        />
       );
     });
 
@@ -67,13 +65,12 @@ class DetailsWebContainer extends Component<any, any> {
     );
     let digitalCurrenciesList = digitalCurrencies.map(account => {
       return (
-        <ListContainer>
-          <List
-            key={account.ticker}
-            name={account.token}
-            subname={account.ticker + " Wallet"}
-          />
-        </ListContainer>
+        <List
+          key={account.ticker}
+          symbol={account.symbol}
+          name={account.token}
+          subname={account.ticker + " Wallet"}
+        />
       );
     });
 
@@ -82,11 +79,14 @@ class DetailsWebContainer extends Component<any, any> {
         <Header H1={"Pick wallets"} P="Add 1 or more currency wallets:" />
         <Content>
           <P styling={"margin: 40px 0px 10px 0px"}>National Currencies:</P>
-          {nationalCurrenciesList}
+          <ListContainer> {nationalCurrenciesList} </ListContainer>
           <P styling={"margin: 40px 0px 10px 0px"}>Precious Metals:</P>
-          {preciousMetalsList}
+          <ListContainer> {preciousMetalsList} </ListContainer>
           <P styling={"margin: 40px 0px 10px 0px"}>Digital Currencies:</P>
-          {digitalCurrenciesList}
+          <ListContainer styling={"margin: 0px 0px 20px 0px"}>
+            {" "}
+            {digitalCurrenciesList}{" "}
+          </ListContainer>
         </Content>
       </Page>
     );

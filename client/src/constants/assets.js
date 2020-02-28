@@ -19,30 +19,12 @@ module.exports = [
     available: false
   },
   {
-    token: "New Zealand Dollar",
-    ticker: "xNZD",
+    token: "Euro",
+    ticker: "xEUR",
     price: 0,
-    symbol: "$",
+    symbol: "€",
     balance: 0.0,
-    visible: false,
-    available: false
-  },
-  {
-    token: "Norwegian Krone",
-    ticker: "xNOK",
-    price: 0,
-    symbol: "kr",
-    balance: 0.0,
-    visible: false,
-    available: false
-  },
-  {
-    token: "Japanese Yen",
-    ticker: "xJPY",
-    price: 0,
-    symbol: "¥",
-    balance: 0.0,
-    visible: false,
+    visible: true,
     available: false
   },
   {
@@ -55,12 +37,12 @@ module.exports = [
     available: false
   },
   {
-    token: "Euro",
-    ticker: "xEUR",
+    token: "Japanese Yen",
+    ticker: "xJPY",
     price: 0,
-    symbol: "€",
+    symbol: "¥",
     balance: 0.0,
-    visible: true,
+    visible: false,
     available: false
   },
   {
@@ -90,7 +72,6 @@ module.exports = [
     visible: false,
     available: false
   },
-
   {
     token: "Australian Dollar",
     ticker: "xAUD",
@@ -100,6 +81,25 @@ module.exports = [
     visible: false,
     available: false
   },
+  {
+    token: "New Zealand Dollar",
+    ticker: "xNZD",
+    price: 0,
+    symbol: "$",
+    balance: 0.0,
+    visible: false,
+    available: false
+  },
+  {
+    token: "Norwegian Krone",
+    ticker: "xNOK",
+    price: 0,
+    symbol: "kr",
+    balance: 0.0,
+    visible: false,
+    available: false
+  },
+
   {
     token: "Bitcoin",
     ticker: "xBTC",
