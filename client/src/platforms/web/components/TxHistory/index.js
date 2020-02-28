@@ -3,7 +3,7 @@ import {
   History,
   Message,
   NoTransactions
-} from "../../../../shared/pages/_wallet/details/styles";
+} from "../../../../shared/pages/_wallet/Onboarding/styles";
 import { Spinner } from "../../../../shared/components/spinner";
 import {
   convertBalanceForReading,

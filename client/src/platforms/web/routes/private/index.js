@@ -5,7 +5,7 @@ import { Redirect, Route } from "react-router-dom";
 // Relative Imports
 
 import { AssetsWeb } from "../../pages/_wallet/assets";
-import { DetailsWeb } from "../../pages/_wallet/details";
+import { DetailsWeb } from "../../pages/_wallet/Onboarding";
 import { TransferWeb } from "../../pages/_wallet/transfer";
 import { connect } from "react-redux";
 import { selectIsLoggedIn } from "../../reducers/account";
@@ -55,7 +55,7 @@ class PrivateRoutes extends Component {
         <Page>
           <Route path={`${match.url}/assets`} exact component={AssetsWeb} />
           <Route
-            path={`${match.url}/assets/:id`}
+            path={`${match.url}/onboarding`}
             exact
             component={DetailsWeb}
           />

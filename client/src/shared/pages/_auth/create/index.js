@@ -25,14 +25,6 @@ export class CreateWebComponent extends Component {
     this.props.getSeed();
   }
 
-  ref = React.createRef();
-
-  keyPress = event => {
-    if (event.key === "Enter") {
-      this.refs.BuyAmountButton.onClick();
-    }
-  };
-
   async componentDidUpdate(prevProps, prevState) {
     if (this.props.mnemonicString !== "" && this.state.mnemonicString === "") {
       const seed = await decrypt(this.props.createdSeed);
@@ -68,15 +60,6 @@ export class CreateWebComponent extends Component {
     this.setState({ step: step - 1 });
   };
 
-  handleChange = event => {
-    const name = event.target.name;
-    const value = event.target.value;
-
-    this.setState({
-      [name]: value
-    });
-  };
-
   handlePaste = () => {
     clipboard
       .readText()
@@ -85,6 +68,7 @@ export class CreateWebComponent extends Component {
           verify_seed: response,
           action: "PASTED PASSWORD"
         });
+        this.nextStep();
       })
       .then(
         setTimeout(() => {

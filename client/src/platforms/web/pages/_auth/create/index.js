@@ -14,19 +14,17 @@ import { Redirect } from "react-router";
 import { CreateWebComponent } from "../../../../../shared/pages/_auth/create";
 
 class CreateWebContainer extends Component {
-
-
-  verifySeed = (typedSeed) => {
+  verifySeed = typedSeed => {
     const verified = typedSeed === this.props.mnemonicString;
     verified
       ? this.props.mnenomicVerificationSucceed()
       : this.props.mneomicVerifcationFailed();
     return verified;
-  }
+  };
 
   render() {
     if (this.props.isLoggedIn) {
-      return <Redirect to="/wallet/assets" />;
+      return <Redirect to="/wallet/onboarding" />;
     }
 
     return (
@@ -46,11 +44,8 @@ const mapStateToProps = state => ({
   isRequestingLogin: selectIsRequestingLogin(state)
 });
 
-export const CreateWeb = connect(
-  mapStateToProps,
-  {
-    getSeed: createWallet,
-    mnenomicVerificationSucceed,
-    mneomicVerifcationFailed
-  }
-)(CreateWebContainer);
+export const CreateWeb = connect(mapStateToProps, {
+  getSeed: createWallet,
+  mnenomicVerificationSucceed,
+  mneomicVerifcationFailed
+})(CreateWebContainer);

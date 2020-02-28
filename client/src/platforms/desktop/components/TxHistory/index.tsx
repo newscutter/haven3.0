@@ -3,11 +3,12 @@ import {
   History,
   Message,
   NoTransactions
-} from "shared/pages/_wallet/details/styles";
+} from "shared/pages/_wallet/Onboarding/styles";
 import { Spinner } from "shared/components/spinner";
 import {
   convertBalanceForReading,
-  createRemainingTimeString, getCurrentValueInUSD
+  createRemainingTimeString,
+  getCurrentValueInUSD
 } from "utility/utility";
 import empty from "assets/illustration/no_transactions.svg";
 import React, { Component } from "react";
@@ -16,13 +17,13 @@ import { connect } from "react-redux";
 import { Transaction } from "shared/components/transaction";
 import Header from "shared/components/_layout/header/index.js";
 import { selectBlockHeight } from "../../reducers/chain";
-import {getTransferListByTicker} from "shared/reducers/xTransferList";
+import { getTransferListByTicker } from "shared/reducers/xTransferList";
 import { withRouter } from "react-router";
 import { Ticker } from "shared/reducers/types";
 import { DesktopAppState } from "platforms/desktop/reducers";
 
 interface TxHistoryProps {
-  transferList: any [] | null | undefined;
+  transferList: any[] | null | undefined;
   height: number;
   price: number;
   assetId: Ticker;
@@ -41,8 +42,6 @@ class TxHistoryContainer extends Component<TxHistoryProps, any> {
       return direction;
     }
   }
-
-
 
   render() {
     const all = this.props.transferList;
@@ -66,7 +65,8 @@ class TxHistoryContainer extends Component<TxHistoryProps, any> {
               all.map((transaction: any, index: number) => {
                 const currentValueInUSD = getCurrentValueInUSD(
                   transaction.amount,
-                  this.props.assetId, this.props.price
+                  this.props.assetId,
+                  this.props.price
                 );
                 const transactionDate = new Date(
                   transaction.timestamp * 1000

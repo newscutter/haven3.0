@@ -7,7 +7,7 @@ export const Headline = styled.h1`
   color: #fff;
   line-height: 1.25;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   ${props => props.styling}
 `;

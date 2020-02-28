@@ -1,4 +1,4 @@
-import { Details } from "shared/pages/_wallet/details";
+import { Details } from "shared/pages/_wallet/Onboarding";
 import React, { Component } from "react";
 import { TxHistoryDesktop } from "../../../components/TxHistory";
 import { connect } from "react-redux";

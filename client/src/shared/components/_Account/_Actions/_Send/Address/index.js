@@ -18,8 +18,8 @@ class SendAddress extends Component {
   }
 
   keyPress = event => {
-    if (event.key === "Enter") {
-      this.refs.BuyAmountButton.onClick();
+    if (event.key === "Enter" && this.props.send.address.length > 97) {
+      this.ref.current.onClick();
     }
   };
 
@@ -65,7 +65,7 @@ class SendAddress extends Component {
               label="NEXT"
               highlight
               styling={"border-radius: 0px 10px 10px 0px"}
-              ref="BuyAmountButton"
+              ref="SendAddressButton"
             />
           ) : (
             <Button

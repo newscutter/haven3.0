@@ -3,7 +3,7 @@ module.exports = [
     token: "Haven",
     ticker: "XHV",
     price: 0,
-    symbol: "X",
+    symbol: "H",
     balance: 0.0,
     visible: true,
     available: true
