@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Icon, Names, Information, Chevron } from "./styles";
-import P from "../../../_Text/P";
-import H4 from "../../../_Text/H4";
+import P from "../../_Text/P";
+import H4 from "../../_Text/H4";
 
 const List = props => {
   return (

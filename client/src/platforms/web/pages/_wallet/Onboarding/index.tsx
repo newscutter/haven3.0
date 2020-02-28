@@ -10,7 +10,7 @@ import Page from "../../../../../shared/components/_layout/page";
 import Header from "../../../../../shared/components/Header/Animated";
 import Content from "../../../../../shared/components/Content";
 
-import AccountList from "../../../../../shared/components/_Settings/UI/List";
+import List from "../../../../../shared/components/_Lists/Onboarding";
 import ListContainer from "../../../../../shared/components/_Settings/UI/List/Container";
 import P from "../../../../,./../../shared/components/_Text/P";
 
@@ -30,7 +30,7 @@ class DetailsWebContainer extends Component<any, any> {
     let nationalCurrenciesList = nationalCurrencies.map(account => {
       return (
         <ListContainer>
-          <AccountList
+          <List
             key={account.ticker}
             name={account.token}
             subname={account.ticker + " Wallet"}
@@ -53,7 +53,7 @@ class DetailsWebContainer extends Component<any, any> {
     let preciousMetalsList = preciousMetals.map(account => {
       return (
         <ListContainer>
-          <AccountList
+          <List
             key={account.ticker}
             name={account.token}
             subname={account.ticker + " Wallet"}
@@ -68,7 +68,7 @@ class DetailsWebContainer extends Component<any, any> {
     let digitalCurrenciesList = digitalCurrencies.map(account => {
       return (
         <ListContainer>
-          <AccountList
+          <List
             key={account.ticker}
             name={account.token}
             subname={account.ticker + " Wallet"}
