@@ -18,11 +18,6 @@ export class Details extends Component<DetailsProps, any> {
   }
 
   render() {
-    return (
-      <Page>
-        <Header H1={"Pick your wallets"} P="Add 1 or more wallets:" />
-        <Content></Content>
-      </Page>
-    );
+    return null;
   }
 }
