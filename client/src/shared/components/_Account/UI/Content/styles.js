@@ -10,4 +10,6 @@ export const Container = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
+
+  ${props => props.styling}
 `;

@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Overview from "./Overview";
 import Detail from "./Detail";
 import Aux from "../../../Aux";
+import { selectBlockchainHeight } from "../../../../../platforms/web/reducers/chain";
+import { getTransfers } from "../../../../../platforms/web/actions";
+import { connect } from "react-redux";
 
 class History extends Component {
   state = {
@@ -9,8 +12,9 @@ class History extends Component {
     txid: ""
   };
 
-  routing = input => {
+  routing = (input, hash) => {
     this.setState({ page: input });
+    this.setState({ txid: hash });
   };
 
   History = txid => {
@@ -21,6 +25,7 @@ class History extends Component {
             data={this.props.data}
             linking={this.props.routing}
             routing={this.routing.bind(this)}
+            transactions={this.props.transferList.txs}
           />
         );
       case "Detail":
@@ -29,6 +34,9 @@ class History extends Component {
             data={this.props.data}
             linking={this.props.routing}
             routing={this.routing.bind(this)}
+            txid={this.state.txid}
+            price={this.props.price}
+            transactions={this.props.transferList.txs}
           />
         );
     }
@@ -38,4 +46,10 @@ class History extends Component {
   }
 }
 
-export default History;
+export const mapStateToProps = state => ({
+  transferList: state.transferList,
+  height: selectBlockchainHeight(state),
+  price: state.simplePrice.price
+});
+
+export default connect(mapStateToProps, { getTransfers })(History);

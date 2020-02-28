@@ -28,6 +28,7 @@ import MoreIcon from "../../../../assets/icons/settings.svg";
 import { WebAppState } from "platforms/web/reducers";
 import { selectSimplePrice } from "../../../../shared/reducers/simplePrice";
 import { currentPrice } from "shared/reducers/currentPrice";
+import { throws } from "assert";
 
 interface AssetsProps {
   balances: XBalances;
@@ -100,33 +101,20 @@ class AssetsPage extends Component<AssetsProps, any> {
   Page = (ticker: String, data: Object, available: boolean) => {
     if (this.state.ticker !== ticker) {
       return <Default data={data} routing={this.Routing.bind(this)} />;
-    } else {
+    }
+    if (available) {
       switch (this.state.action) {
         case "Send":
-          if (available) {
-            return <Send data={data} routing={this.Routing.bind(this)} />;
-          } else {
-            return <ComingSoon data={data} routing={this.Routing.bind(this)} />;
-          }
+          return <Send data={data} routing={this.Routing.bind(this)} />;
         case "Receive":
-          if (available) {
-            return <Receive data={data} routing={this.Routing.bind(this)} />;
-          } else {
-            return <ComingSoon data={data} routing={this.Routing.bind(this)} />;
-          }
+          return <Receive data={data} routing={this.Routing.bind(this)} />;
         case "Buy":
-          if (available) {
-            return <Buy data={data} routing={this.Routing.bind(this)} />;
-          } else {
-            return <ComingSoon data={data} routing={this.Routing.bind(this)} />;
-          }
+          return <Buy data={data} routing={this.Routing.bind(this)} />;
         case "History":
-          if (available) {
-            return <History data={data} routing={this.Routing.bind(this)} />;
-          } else {
-            return <ComingSoon data={data} routing={this.Routing.bind(this)} />;
-          }
+          return <History data={data} routing={this.Routing.bind(this)} />;
       }
+    } else {
+      return <ComingSoon data={data} routing={this.Routing.bind(this)} />;
     }
   };
 

@@ -35,6 +35,7 @@ class BuyMethod extends Component {
       }
     ]
   };
+
   render() {
     let depositList = null;
     depositList = (
