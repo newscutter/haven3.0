@@ -1,9 +1,10 @@
 import React from "react";
-import { Container } from "./styles";
-import { refresh } from "platforms/desktop/actions";
+import { Container, Wrapper } from "./styles";
 
-const Content = props => {
-  return <Container styling={props.styling}>{props.children}</Container>;
-};
+const Content = props => (
+  <Container styling={props.styling}>
+    <Wrapper>{props.children}</Wrapper>
+  </Container>
+);
 
 export default Content;

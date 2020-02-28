@@ -11,7 +11,7 @@ import ChevronIcon from "../../../../assets/icons/right-white.png";
 // `;
 
 export const Container = styled.div`
-  width: calc(100% - 80px);
+  width: calc(100% - 40px);
   margin: 0px 0px 1px 0px;
   padding: 20px;
 

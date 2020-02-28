@@ -67,7 +67,12 @@ class HistoryDetail extends Component {
         />
         <Content>
           <A>
-            {convertBalanceForReading(Math.abs(this.state.transaction.amount)) +
+            {(this.getTransactionType(this.state.transaction) === "Sent"
+              ? "-"
+              : "") +
+              convertBalanceForReading(
+                Math.abs(this.state.transaction.amount)
+              ) +
               " " +
               this.props.data.ticker}
           </A>
@@ -76,7 +81,11 @@ class HistoryDetail extends Component {
               "text-align: center; width: 100%; color: #000; margin: 0px 0px 33px 0px"
             }
           >
-            {"≈ $" +
+            {"≈ " +
+              (this.getTransactionType(this.state.transaction) === "Sent"
+                ? "-"
+                : "") +
+              "$" +
               getCurrentValueInUSD(
                 this.state.transaction.amount,
                 Ticker.XHV,

@@ -1,5 +1,7 @@
 import { Details } from "shared/pages/_wallet/Onboarding";
+
 import React, { Component } from "react";
+import Onboarding from "../../../../../shared/components/_Onboarding/index";
 import TxHistoryWeb from "../../../components/TxHistory";
 import { connect } from "react-redux";
 import Accounts from "../../../../../constants/assets";
@@ -15,10 +17,6 @@ import ListContainer from "../../../../../shared/components/_Lists/Onboarding/Co
 import P from "../../../../,./../../shared/components/_Text/P";
 
 class DetailsWebContainer extends Component<any, any> {
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
   render() {
     let nationalCurrencies = Accounts.filter(
       row =>
@@ -76,18 +74,7 @@ class DetailsWebContainer extends Component<any, any> {
 
     return (
       <Page>
-        <Header H1={"Pick wallets"} P="Add 1 or more currency wallets:" />
-        <Content>
-          <P styling={"margin: 40px 0px 10px 0px"}>National Currencies:</P>
-          <ListContainer> {nationalCurrenciesList} </ListContainer>
-          <P styling={"margin: 40px 0px 10px 0px"}>Precious Metals:</P>
-          <ListContainer> {preciousMetalsList} </ListContainer>
-          <P styling={"margin: 40px 0px 10px 0px"}>Digital Currencies:</P>
-          <ListContainer styling={"margin: 0px 0px 20px 0px"}>
-            {" "}
-            {digitalCurrenciesList}{" "}
-          </ListContainer>
-        </Content>
+        <Onboarding />
       </Page>
     );
   }
