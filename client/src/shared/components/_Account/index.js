@@ -11,7 +11,7 @@ import { calcValue, convertToMoney, convertToPrice } from "utility/utility";
 import Aux from "../Aux";
 import Header from "../Header/Animated";
 import Content from "../Content";
-import Account from "../_Account/index";
+import { Account } from "./styles";
 import Default from "./_Actions/Default/index";
 import Send from "./_Actions/_Send/index";
 import Receive from "./_Actions/Receive";
