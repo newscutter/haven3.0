@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import HistoryIcon from "../../../assets/icons/history.svg";
 
-export const Container = styled.div`
+export const Account = styled.div`
   height: auto;
   max-height: 530px;
   width: 100%;
