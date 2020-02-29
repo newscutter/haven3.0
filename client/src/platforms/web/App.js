@@ -1,6 +1,6 @@
 // Library Imports
 import React, { Component, Suspense, lazy } from "react";
-import { Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { connect } from "react-redux";
 import { history } from "../../utility/history.js";
@@ -16,13 +16,13 @@ class App extends Component {
   render() {
     return (
       <ThemeProvider theme={this.props.theme}>
-        <Router history={history}>
+        <HashRouter history={history}>
           <Status />
           <PublicRoutesWeb />
           <Suspense fallback={<Loader />}>
             <Route path="/wallet" component={PrivateRoutesWeb} />
           </Suspense>
-        </Router>
+        </HashRouter>
       </ThemeProvider>
     );
   }

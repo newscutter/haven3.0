@@ -19,10 +19,7 @@ class History extends Component {
   };
 
   History = txid => {
-    if (
-      this.props.transferList.isFetching &&
-      this.props.transferList.txs !== null
-    ) {
+    if (this.props.transferList.txs !== null) {
       switch (this.state.page) {
         case "Overview":
           return (
@@ -46,7 +43,13 @@ class History extends Component {
           );
       }
     } else {
-      return <NoHistory data={this.props.data} linking={this.props.routing} />;
+      return (
+        <NoHistory
+          data={this.props.data}
+          linking={this.props.routing}
+          routing={this.routing.bind(this)}
+        />
+      );
     }
   };
   render() {

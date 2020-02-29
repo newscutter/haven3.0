@@ -11,7 +11,9 @@ class NoHistory extends Component {
   render() {
     return (
       <Aux>
-        <Header />
+        <Header
+          close={() => this.props.linking(this.props.data.ticker, "Default")}
+        />
         <Content>
           <Icon styling={"margin: 0px 0px 20px 0px"} />
           <H4 styling={"color: #000; text-align: center;"}>
@@ -26,7 +28,7 @@ class NoHistory extends Component {
           </P>
           <Button
             highlight
-            click={() => this.props.linking(this.props.data.ticker, "Buy")}
+            onClick={() => this.props.linking(this.props.data.ticker, "Buy")}
             label={"GET " + this.props.data.ticker.toUpperCase()}
             styling={"width: 100%; "}
           />

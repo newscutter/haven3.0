@@ -23,7 +23,7 @@ class Welcome extends Component {
       <Page>
         <Container>
           <Logo styling={"margin: 0px 0px 7px 2px; width: 30px"} />
-          <H1 styling="margin: 10px 0px;">Private digital money.</H1>
+          <H1 styling="margin: 10px 0px;">Private money.</H1>
           <H4 styling={"color: #7f7f7f; line-height: 1.5"}>
             Store and transact money in privacy with xUSD: The first untraceable
             decentralized US Dollar stablecoin.
