@@ -19,6 +19,7 @@ import Buy from "./_Pages/_Buy/index";
 import History from "./_Pages/_History";
 import ComingSoon from "./_Pages/ComingSoon";
 import MoreIcon from "../../../assets/icons/settings.svg";
+import Button from "../../components/_buttons/button";
 import { selectSimplePrice } from "../../reducers/simplePrice";
 
 class Wallet extends Component {
@@ -102,7 +103,14 @@ class Wallet extends Component {
           H1={this.props.nativeCurrency.symbol + totalBalance}
           P="Total Balance in USD"
           icon={MoreIcon}
-          onClick={() => this.props.routing("Settings")}
+          buttons={
+            <Button
+              icon
+              iconSrc={MoreIcon}
+              onClick={() => this.props.routing("Settings")}
+              styling={"float:right;"}
+            />
+          }
         />
         <Content>{this.Accounts()}</Content>
       </Aux>

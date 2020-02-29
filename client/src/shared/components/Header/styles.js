@@ -14,4 +14,5 @@ export const Title = styled.div`
 export const Buttons = styled.div`
   width: calc(100% - 150px);
   height: auto;
+  align: right;
 `;

@@ -4,10 +4,19 @@ import React from "react";
 // Relative Imports
 import { Container } from "./styles";
 
-const Link = ({ label, to, highlight, styling }) => {
+const Link = props => {
   return (
-    <Container to={to} highlight={highlight} styling={styling}>
-      {label}
+    <Container
+      highlight={props.highlight}
+      detail={props.detail}
+      small={props.small}
+      icon={props.icon}
+      iconSrc={props.iconSrc}
+      styling={props.styling}
+      to={props.to}
+      disabled={props.disabled}
+    >
+      {props.label}
     </Container>
   );
 };

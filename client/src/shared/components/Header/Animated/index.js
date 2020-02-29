@@ -46,12 +46,7 @@ class Header extends Component {
             </H1>
             <P>{this.props.P}</P>
           </Title>
-          <Buttons>
-            <Button
-              icon={this.props.icon}
-              onClick={() => this.props.onClick()}
-            />
-          </Buttons>
+          <Buttons>{this.props.buttons}</Buttons>
         </Wrapper>
       </Container>
     );

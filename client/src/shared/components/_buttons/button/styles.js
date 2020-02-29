@@ -35,7 +35,14 @@ export const Container = styled.button`
     props.detail
       ? "float: right; font-size: 12px; color: #506be5; background-color: #eaeaea; margin: -6px 0px; padding: 6px 15px; display: inline-block; &:hover {background-color: #fff}"
       : ""}
+
+      ${props =>
+        props.icon
+          ? " background-size: 15px; background-position: center; background-repeat: no-repeat; width: 40px; height: 40px;"
+          : ""}
+
+          background-image: url(${props => props.iconSrc});
+        
   ${props => props.styling}
 
- 
 `;

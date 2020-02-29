@@ -9,6 +9,8 @@ const Button = React.forwardRef((props, ref) => (
     highlight={props.highlight}
     detail={props.detail}
     small={props.small}
+    icon={props.icon}
+    iconSrc={props.iconSrc}
     styling={props.styling}
     onClick={props.onClick}
     disabled={props.disabled}

@@ -1,7 +1,6 @@
 import { Details } from "shared/pages/_wallet/Onboarding";
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import Accounts from "../../../constants/assets";
 
 import { WebAppState } from "platforms/web/reducers";
 import { selectSimplePrice } from "shared/reducers/simplePrice";
@@ -12,8 +11,12 @@ import List from "./UI/List";
 import ListContainer from "./UI/List/Container";
 import P from "../_Text/P";
 import Button from "../_buttons/button";
+import Link from "../_buttons/link";
 
 class Onboarding extends Component {
+  shouldComponentUpdate(nextProps) {
+    return this.props.accounts !== nextProps.accounts;
+  }
   render() {
     let nationalCurrencies = this.props.accounts.filter(
       row =>
@@ -91,7 +94,31 @@ class Onboarding extends Component {
 
     return (
       <Aux>
-        <Header H1={"Pick wallets"} P="Add 1 or more currency wallets:" />
+        <Header
+          H1={"Pick wallets"}
+          P="Add 1 or more currency wallets:"
+          buttons={
+            <Aux>
+              <Link
+                label="NEXT"
+                highlight
+                to="/wallet/assets"
+                disabled={
+                  !(
+                    this.props.accounts
+                      .map(account => {
+                        if (account.visible === true) {
+                          return false;
+                        } else return "0";
+                      })
+                      .filter(word => word === false).length > 0
+                  )
+                }
+                styling={"float:right;"}
+              />
+            </Aux>
+          }
+        />
         <Content>
           <P styling={"margin: 40px 0px 10px 0px"}>National Currencies:</P>
           <ListContainer> {nationalCurrenciesList} </ListContainer>
@@ -111,11 +138,15 @@ class Onboarding extends Component {
 export const mapStateToProps = state => ({
   balances: state.xBalance,
   lastPrice: selectSimplePrice(state),
-  accounts: state.Accounts.accounts
+  accounts: state.Accounts
 });
 
 export const mapDispatchToProps = dispatch => ({
-  visibleaccounts: () => dispatch({ type: "ACCOUNTS_CHANGE_VISIBILITY" })
+  visibleaccounts: ticker =>
+    dispatch({
+      type: "ACCOUNTS_CHANGE_VISIBILITY",
+      ticker: ticker
+    })
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Onboarding);

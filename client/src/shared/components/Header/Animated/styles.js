@@ -11,15 +11,4 @@ export const Container = styled.div`
   ${props => props.styling}
 `;
 
-export const Button = styled.div`
-  background-image: url(${props => props.icon});
-  background-color: rgba(0, 0, 0, 0.2);
-  background-size: 15px;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 10px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  float: right;
-`;
+export const Button = styled.div``;
