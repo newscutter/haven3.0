@@ -1,4 +1,4 @@
-import {AnyAction, combineReducers} from "redux";
+import { AnyAction, combineReducers } from "redux";
 
 // Reducers
 import theme from "shared/reducers/currentTheme.js";
@@ -11,10 +11,13 @@ import { CLOSE_WALLET } from "shared/actions/types";
 import { account } from "./account";
 import { simplePrice } from "shared/reducers/simplePrice";
 import { chain } from "./chain";
-import {transferProcess} from "./transferProcess";
+import { transferProcess } from "./transferProcess";
 import forex from "shared/reducers/forex";
-import {xBalance} from "shared/reducers/xBalance";
-import {xhvVsCurrencies} from "platforms/web/reducers/xhvVsCurrencies";
+import { xBalance } from "shared/reducers/xBalance";
+import { xhvVsCurrencies } from "platforms/web/reducers/xhvVsCurrencies";
+
+import NativeCurrency from "../../../shared/reducers/NativeCurrency";
+import Accounts from "../../../shared/reducers/Accounts";
 
 const appReducer = combineReducers({
   theme,
@@ -29,7 +32,9 @@ const appReducer = combineReducers({
   simplePrice,
   transferProcess,
   forex,
-  xhvVsCurrencies
+  xhvVsCurrencies,
+  NativeCurrency,
+  Accounts
 });
 
 const rootReducer = (state: any, action: AnyAction) => {
@@ -42,5 +47,4 @@ const rootReducer = (state: any, action: AnyAction) => {
 
 export default rootReducer;
 
-
-export type WebAppState = ReturnType<typeof rootReducer>
+export type WebAppState = ReturnType<typeof rootReducer>;

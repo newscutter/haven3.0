@@ -34,6 +34,7 @@ interface AssetsProps {
   balances: XBalances;
   price: number;
   rates: { [key: string]: any };
+  nativeCurrency: { symbol: String; ticker: String; price: number };
   getSimplePrice: () => void;
   getForex: () => void;
 }
@@ -130,7 +131,7 @@ class AssetsPage extends Component<AssetsProps, any> {
           close={() => this.routing1("Accounts")}
         />
         <Header
-          H1={"$" + totalBalance}
+          H1={this.props.nativeCurrency.symbol + totalBalance}
           P="Total Balance in USD"
           icon={MoreIcon}
           onClick={() => this.routing1("Settings")}
@@ -145,7 +146,8 @@ const mapStateToProps = (state: WebAppState) => ({
   ...state.simplePrice,
   ...state.forex,
   balances: state.xBalance,
-  lastPrice: selectSimplePrice(state)
+  lastPrice: selectSimplePrice(state),
+  nativeCurrency: state.NativeCurrency
 });
 
 export const Assets = connect(mapStateToProps, { getForex, getSimplePrice })(

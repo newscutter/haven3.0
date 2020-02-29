@@ -1,4 +1,6 @@
-state = [
+import * as actions from "../actions/Accounts";
+
+const initialState = [
   {
     token: "US Dollar",
     ticker: "USD",
@@ -118,3 +120,27 @@ state = [
     visible: true
   }
 ];
+
+const Accounts = (state = initialState, action) => {
+  switch (action.type) {
+    case actions.ACCOUNTS_CHANGE_VISIBILITY:
+      let accountIndex = state.findIndex(p => {
+        return p.ticker === action.ticker;
+      });
+      return {
+        ...state,
+        accounts: {
+          ...state.accounts,
+          [accountIndex]: {
+            ...state.accounts[accountIndex],
+            visible: true
+          }
+        }
+      };
+
+    default:
+      return state;
+  }
+};
+
+export default Accounts;

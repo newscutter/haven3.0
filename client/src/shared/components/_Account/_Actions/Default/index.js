@@ -51,7 +51,7 @@ class Default extends Component {
             <P>{amount + " " + this.props.data.ticker}</P>
           </Information>
           <Balance>
-            <B>{"$" + value}</B>
+            <B>{this.props.nativeCurrency.symbol + value}</B>
           </Balance>
         </Header>
         <Content>
@@ -88,7 +88,8 @@ const mapStateToProps = state => ({
   getSimplePrice: state.simplePrice,
   getForex: state.forex,
   balances: state.xBalance,
-  lastPrice: selectSimplePrice(state)
+  lastPrice: selectSimplePrice(state),
+  nativeCurrency: state.NativeCurrency
 });
 
 export default connect(mapStateToProps)(Default);

@@ -4,6 +4,7 @@ export * from "./prices";
 export * from "./theme";
 export * from "./forex";
 export * from "./NativeCurrency";
+export * from "./Accounts";
 
 export const addPubAddress = address => ({
   type: ADD_PUB_ADDRESS,

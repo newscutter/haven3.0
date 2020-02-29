@@ -37,7 +37,7 @@ const initialState = {
   ]
 };
 
-const reducer = (state = initialState, action) => {
+const NativeCurrency = (state = initialState, action) => {
   switch (action.type) {
     case actions.NATIVECURRENCY_CHANGE:
       let optionsIndex = state.options.findIndex(p => {
@@ -62,4 +62,4 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-export default reducer;
+export default NativeCurrency;

@@ -39,6 +39,7 @@ class History extends Component {
               txid={this.state.txid}
               price={this.props.price}
               transactions={this.props.transferList.txs}
+              nativeCurrency={this.props.nativeCurrency}
             />
           );
       }
@@ -60,7 +61,8 @@ class History extends Component {
 export const mapStateToProps = state => ({
   transferList: state.transferList,
   height: selectBlockchainHeight(state),
-  price: state.simplePrice.price
+  price: state.simplePrice.price,
+  nativeCurrency: state.NativeCurrency
 });
 
 export default connect(mapStateToProps, { getTransfers })(History);

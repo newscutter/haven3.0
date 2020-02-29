@@ -85,7 +85,7 @@ class HistoryDetail extends Component {
               (this.getTransactionType(this.state.transaction) === "Sent"
                 ? "-"
                 : "") +
-              "$" +
+              this.props.nativeCurrency.symbol +
               getCurrentValueInUSD(
                 this.state.transaction.amount,
                 Ticker.XHV,
