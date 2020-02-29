@@ -36,7 +36,7 @@ class Header extends Component {
           "px 20px; ",
           window.scrollY > 0
             ? "border-bottom: 1px solid rgba(255,255,255,0.05); "
-            : ""
+            : "background-color: #242426;"
         ].join("")}
       >
         <Wrapper>
