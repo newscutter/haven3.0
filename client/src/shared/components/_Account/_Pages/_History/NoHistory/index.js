@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Icon } from ".//styles";
+import { Icon } from "./styles";
 import Aux from "../../../../Aux";
 import Header from "../../../UI/_Header/Default";
 import Content from "../../../UI/Content";
@@ -28,7 +28,7 @@ class NoHistory extends Component {
           </P>
           <Button
             highlight
-            onClick={() => this.props.linking(this.props.data.ticker, "Buy")}
+            onClick={() => this.props.routing(this.props.data.ticker, "Buy")}
             label={"GET " + this.props.data.ticker.toUpperCase()}
             styling={"width: 100%; "}
           />

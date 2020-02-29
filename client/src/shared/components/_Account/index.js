@@ -12,21 +12,20 @@ import Aux from "../Aux";
 import Header from "../Header/Animated";
 import Content from "../Content";
 import { Account } from "./styles";
-import Default from "./_Actions/Default/index";
-import Send from "./_Actions/_Send/index";
-import Receive from "./_Actions/Receive";
-import Buy from "./_Actions/_Buy/index";
-import History from "./_Actions/_History";
-import ComingSoon from "./_Actions/ComingSoon";
+import Default from "./_Pages/Default/index";
+import Send from "./_Pages/_Send/index";
+import Receive from "./_Pages/Receive";
+import Buy from "./_Pages/_Buy/index";
+import History from "./_Pages/_History";
+import ComingSoon from "./_Pages/ComingSoon";
 import MoreIcon from "../../../assets/icons/settings.svg";
 import { selectSimplePrice } from "../../reducers/simplePrice";
 
 class Wallet extends Component {
   state = {
     forexPriceFetched: false,
-    action: "Default",
-    ticker: "",
-    page: "Accounts"
+    action: "",
+    ticker: ""
   };
 
   routing = (ticker, action) => {
@@ -37,6 +36,8 @@ class Wallet extends Component {
       this.setState({ ticker: "" });
       this.setState({ action: "" });
     }
+
+    console.log(this.state);
   };
 
   componentDidMount() {

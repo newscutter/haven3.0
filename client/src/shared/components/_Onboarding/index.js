@@ -15,7 +15,7 @@ import Button from "../_buttons/button";
 
 class Onboarding extends Component {
   render() {
-    let nationalCurrencies = Accounts.filter(
+    let nationalCurrencies = this.props.accounts.filter(
       row =>
         row.symbol !== "G" &&
         row.symbol !== "S" &&
@@ -43,7 +43,7 @@ class Onboarding extends Component {
       );
     });
 
-    let preciousMetals = Accounts.filter(
+    let preciousMetals = this.props.accounts.filter(
       row => row.symbol === "G" || row.symbol === "S"
     );
     let preciousMetalsList = preciousMetals.map(account => {
@@ -66,7 +66,7 @@ class Onboarding extends Component {
       );
     });
 
-    let digitalCurrencies = Accounts.filter(
+    let digitalCurrencies = this.props.accounts.filter(
       row => row.symbol === "₿" || row.symbol === "H"
     );
     let digitalCurrenciesList = digitalCurrencies.map(account => {
@@ -110,7 +110,12 @@ class Onboarding extends Component {
 
 export const mapStateToProps = state => ({
   balances: state.xBalance,
-  lastPrice: selectSimplePrice(state)
+  lastPrice: selectSimplePrice(state),
+  accounts: state.Accounts.accounts
 });
 
-export default connect(mapStateToProps, {})(Onboarding);
+export const mapDispatchToProps = dispatch => ({
+  visibleaccounts: () => dispatch({ type: "ACCOUNTS_CHANGE_VISIBILITY" })
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Onboarding);

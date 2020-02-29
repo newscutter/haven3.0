@@ -78,7 +78,7 @@ class Send extends Component {
   };
 
   SendFunnel = () => {
-    if (this.props.balance === 0) {
+    if (this.props.data.balance === 0) {
       return (
         <SendEmptyWallet data={this.props.data} linking={this.props.routing} />
       );

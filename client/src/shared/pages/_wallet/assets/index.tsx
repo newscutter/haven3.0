@@ -26,6 +26,7 @@ class AssetsPage extends Component {
           show={this.state.page === "Settings" ? "top: 0px" : "top: 100%"}
           close={() => this.routing("Accounts")}
         />
+
         <Accounts />
       </Page>
     );

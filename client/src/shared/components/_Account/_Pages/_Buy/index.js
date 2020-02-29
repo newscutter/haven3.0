@@ -14,7 +14,7 @@ class Buy extends Component {
     page: "Shortcuts",
     buy: {
       ticker: "",
-      amount: 0,
+      amount: Number,
       slider: 0,
       paymentcurrency: {
         ticker: "",

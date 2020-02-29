@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Icon } from ".//styles";
+import { Icon } from "./styles";
 import Aux from "../../../../../Aux";
 import Header from "../../../../UI/_Header/Default";
 import Content from "../../../../UI/Content";
