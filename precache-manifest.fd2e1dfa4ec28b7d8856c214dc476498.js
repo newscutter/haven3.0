@@ -1,67 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "913eaacbed8a149127d3ec3414ab7269",
+    "revision": "e4eaca105a9e7d150de27314fb003426",
     "url": "/haven3.0/index.html"
   },
   {
-    "revision": "7bb99fd2b440dab1fd8a",
+    "revision": "efa15c7dfc2a20132977",
     "url": "/haven3.0/static/css/2.8db93472.chunk.css"
   },
   {
-    "revision": "f157e70e498f5c621e69",
-    "url": "/haven3.0/static/js/0.8243a084.chunk.js"
+    "revision": "83b490fd32a5f567d68f",
+    "url": "/haven3.0/static/js/0.700ef960.chunk.js"
   },
   {
     "revision": "5054ac8328797d4a27e3914719f138be",
-    "url": "/haven3.0/static/js/0.8243a084.chunk.js.LICENSE"
+    "url": "/haven3.0/static/js/0.700ef960.chunk.js.LICENSE"
   },
   {
-    "revision": "bc7663d3afa7129f24ec",
-    "url": "/haven3.0/static/js/1.66e780dd.chunk.js"
+    "revision": "283209df8817f674d00f",
+    "url": "/haven3.0/static/js/1.2c151682.chunk.js"
   },
   {
-    "revision": "bbf69a3515510a878550",
-    "url": "/haven3.0/static/js/10.e8e2a8e4.chunk.js"
+    "revision": "798237efae53a9125467",
+    "url": "/haven3.0/static/js/10.c3aab691.chunk.js"
   },
   {
-    "revision": "63c0b6d75d14592ace5f",
-    "url": "/haven3.0/static/js/11.c6e8d0e7.chunk.js"
+    "revision": "b4b8dab6717033240f92",
+    "url": "/haven3.0/static/js/11.e6bc7e8f.chunk.js"
   },
   {
-    "revision": "6278bcf7cf0a5786aa44",
-    "url": "/haven3.0/static/js/12.09666726.chunk.js"
+    "revision": "1b6c445da5293445f775",
+    "url": "/haven3.0/static/js/12.1843f673.chunk.js"
   },
   {
-    "revision": "7bb99fd2b440dab1fd8a",
-    "url": "/haven3.0/static/js/2.7acb7ebe.chunk.js"
+    "revision": "efa15c7dfc2a20132977",
+    "url": "/haven3.0/static/js/2.38cdb3f9.chunk.js"
   },
   {
-    "revision": "6470a8bfb394b7547281",
-    "url": "/haven3.0/static/js/5.7359c1a7.chunk.js"
+    "revision": "845785fb6d22cae5f6a3",
+    "url": "/haven3.0/static/js/5.f651e7af.chunk.js"
   },
   {
-    "revision": "0a4cba07c88aa3a51a41",
-    "url": "/haven3.0/static/js/6.57c7b30a.chunk.js"
+    "revision": "dcc2e1124b19ac27f31b",
+    "url": "/haven3.0/static/js/6.774b756b.chunk.js"
   },
   {
-    "revision": "c1d60f175faa5b73335c",
-    "url": "/haven3.0/static/js/7.b9848775.chunk.js"
+    "revision": "17d281320a0e93bdc2bf",
+    "url": "/haven3.0/static/js/7.350cd9da.chunk.js"
   },
   {
-    "revision": "1fd14a84a10a4103e515",
-    "url": "/haven3.0/static/js/8.241fcb29.chunk.js"
+    "revision": "7896612ea0aa384faef4",
+    "url": "/haven3.0/static/js/8.3af8dad3.chunk.js"
   },
   {
-    "revision": "916ab48600dfe9e8f25e",
-    "url": "/haven3.0/static/js/9.da10b8e8.chunk.js"
+    "revision": "1e46c7399b7e0f745c91",
+    "url": "/haven3.0/static/js/9.cdf64be7.chunk.js"
   },
   {
-    "revision": "9d2d94d9ba54b4634283",
-    "url": "/haven3.0/static/js/main.26d84338.chunk.js"
+    "revision": "9266edc8580973708b7b",
+    "url": "/haven3.0/static/js/main.3f1355e1.chunk.js"
   },
   {
-    "revision": "c68967831d2f10138549",
-    "url": "/haven3.0/static/js/runtime-main.817941a2.js"
+    "revision": "5f086a4df07a4526fe9e",
+    "url": "/haven3.0/static/js/runtime-main.8b282e81.js"
   },
   {
     "revision": "741dc4163a97ffa354979f18802f6ca8",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/haven3.0/static/media/bitcoin.48b475b8.svg"
   },
   {
-    "revision": "633fe92f2f1e19b46a094297259db1f2",
-    "url": "/haven3.0/static/media/check.633fe92f.svg"
+    "revision": "82f3db395d817c4236f83e640e26f28d",
+    "url": "/haven3.0/static/media/check.82f3db39.svg"
   },
   {
     "revision": "44234a7eb38f314ed334166ae2a26880",
