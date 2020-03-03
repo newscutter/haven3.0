@@ -1,67 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83cfe1b81f828789b5879ed8f6ac2069",
+    "revision": "ea2f20809405e85f7a39c8a6a9f8cebf",
     "url": "/haven3.0/index.html"
   },
   {
-    "revision": "291416bd61adde659fd1",
+    "revision": "f4052214bfa5a6a7d1d2",
     "url": "/haven3.0/static/css/2.8db93472.chunk.css"
   },
   {
-    "revision": "e7b478a9d09cb12acddf",
-    "url": "/haven3.0/static/js/0.ba02d9e8.chunk.js"
+    "revision": "8ea37e3d7ec63a4ab463",
+    "url": "/haven3.0/static/js/0.cc3d9af1.chunk.js"
   },
   {
     "revision": "5054ac8328797d4a27e3914719f138be",
-    "url": "/haven3.0/static/js/0.ba02d9e8.chunk.js.LICENSE"
+    "url": "/haven3.0/static/js/0.cc3d9af1.chunk.js.LICENSE"
   },
   {
-    "revision": "af9f5360e8c256e1676e",
-    "url": "/haven3.0/static/js/1.e2b956a0.chunk.js"
+    "revision": "f7a38fff1939dd6a36c1",
+    "url": "/haven3.0/static/js/1.9563efc3.chunk.js"
   },
   {
-    "revision": "a137b77b036af97770b4",
-    "url": "/haven3.0/static/js/10.2cf18c8e.chunk.js"
+    "revision": "d6856492eb48ebc27448",
+    "url": "/haven3.0/static/js/10.3bc2f9db.chunk.js"
   },
   {
-    "revision": "63c0b6d75d14592ace5f",
-    "url": "/haven3.0/static/js/11.c6e8d0e7.chunk.js"
+    "revision": "b4b8dab6717033240f92",
+    "url": "/haven3.0/static/js/11.e6bc7e8f.chunk.js"
   },
   {
-    "revision": "96bacbf9342fde726634",
-    "url": "/haven3.0/static/js/12.24f9f399.chunk.js"
+    "revision": "c4f83b0a4dce4cc276f4",
+    "url": "/haven3.0/static/js/12.c6bb543a.chunk.js"
   },
   {
-    "revision": "291416bd61adde659fd1",
-    "url": "/haven3.0/static/js/2.160d662b.chunk.js"
+    "revision": "f4052214bfa5a6a7d1d2",
+    "url": "/haven3.0/static/js/2.65bebf50.chunk.js"
   },
   {
-    "revision": "6470a8bfb394b7547281",
-    "url": "/haven3.0/static/js/5.7359c1a7.chunk.js"
+    "revision": "845785fb6d22cae5f6a3",
+    "url": "/haven3.0/static/js/5.f651e7af.chunk.js"
   },
   {
-    "revision": "d2bbf308c8884da74792",
-    "url": "/haven3.0/static/js/6.c1f65eec.chunk.js"
+    "revision": "5d263cbb2ea8a78c0ebd",
+    "url": "/haven3.0/static/js/6.383e006d.chunk.js"
   },
   {
-    "revision": "c1d60f175faa5b73335c",
-    "url": "/haven3.0/static/js/7.b9848775.chunk.js"
+    "revision": "bf2a685f360509a4025d",
+    "url": "/haven3.0/static/js/7.c6d48f14.chunk.js"
   },
   {
-    "revision": "1fd14a84a10a4103e515",
-    "url": "/haven3.0/static/js/8.241fcb29.chunk.js"
+    "revision": "08ecf417eddc0ea9342f",
+    "url": "/haven3.0/static/js/8.a0158655.chunk.js"
   },
   {
-    "revision": "916ab48600dfe9e8f25e",
-    "url": "/haven3.0/static/js/9.da10b8e8.chunk.js"
+    "revision": "1e46c7399b7e0f745c91",
+    "url": "/haven3.0/static/js/9.cdf64be7.chunk.js"
   },
   {
-    "revision": "9d2d94d9ba54b4634283",
-    "url": "/haven3.0/static/js/main.26d84338.chunk.js"
+    "revision": "6b6a8c51b5d99bbde94a",
+    "url": "/haven3.0/static/js/main.fcd16934.chunk.js"
   },
   {
-    "revision": "be4f58bfc552c64a5832",
-    "url": "/haven3.0/static/js/runtime-main.20995022.js"
+    "revision": "1958bda4f590fe4e3d70",
+    "url": "/haven3.0/static/js/runtime-main.3cff3fb7.js"
   },
   {
     "revision": "741dc4163a97ffa354979f18802f6ca8",
@@ -198,10 +198,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a3719dba6724327b006580ed00c32ac0",
     "url": "/haven3.0/static/media/rare.a3719dba.png"
-  },
-  {
-    "revision": "4164bc8ae96574958b574b606d3d5a55",
-    "url": "/haven3.0/static/media/rounded.4164bc8a.svg"
   },
   {
     "revision": "17d2d05c282ce4c4bbc70aa532ccbc43",
