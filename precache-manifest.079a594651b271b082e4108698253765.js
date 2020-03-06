@@ -1,67 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cacc76a29c3c965cfd18c9ca0d409fde",
+    "revision": "9dc92e50fd892d4e55dccd05f54d1694",
     "url": "/haven3.0/index.html"
   },
   {
-    "revision": "8c2d2766025f19bb9ac6",
+    "revision": "7e38839199b082b3b6ce",
     "url": "/haven3.0/static/css/2.8db93472.chunk.css"
   },
   {
-    "revision": "ee851b2b822315ca27c5",
-    "url": "/haven3.0/static/js/0.f7a8cc46.chunk.js"
+    "revision": "8213179564c9ade0e25a",
+    "url": "/haven3.0/static/js/0.aecd2fc0.chunk.js"
   },
   {
     "revision": "5054ac8328797d4a27e3914719f138be",
-    "url": "/haven3.0/static/js/0.f7a8cc46.chunk.js.LICENSE"
+    "url": "/haven3.0/static/js/0.aecd2fc0.chunk.js.LICENSE"
   },
   {
-    "revision": "57645dbe0328e4688e44",
-    "url": "/haven3.0/static/js/1.79921748.chunk.js"
+    "revision": "cab0207f5b24dc837293",
+    "url": "/haven3.0/static/js/1.94e5aab4.chunk.js"
   },
   {
-    "revision": "05feb3d8c71bf3ac2c43",
-    "url": "/haven3.0/static/js/10.3fb3c186.chunk.js"
+    "revision": "36d6df9241ea119533f4",
+    "url": "/haven3.0/static/js/10.0d1caaa7.chunk.js"
   },
   {
-    "revision": "e0ce64f9fec5c427cd7e",
-    "url": "/haven3.0/static/js/11.eaa063ba.chunk.js"
+    "revision": "0898714e0c4ecccc8182",
+    "url": "/haven3.0/static/js/11.d4555a17.chunk.js"
   },
   {
-    "revision": "8ed75ca8eac8d73caf96",
-    "url": "/haven3.0/static/js/12.e110fc91.chunk.js"
+    "revision": "a949cd03f8a8427c4d03",
+    "url": "/haven3.0/static/js/12.052b1b19.chunk.js"
   },
   {
-    "revision": "8c2d2766025f19bb9ac6",
-    "url": "/haven3.0/static/js/2.46b30445.chunk.js"
+    "revision": "7e38839199b082b3b6ce",
+    "url": "/haven3.0/static/js/2.43d4a10f.chunk.js"
   },
   {
-    "revision": "5ba8a4818122af0f4f21",
-    "url": "/haven3.0/static/js/5.15487883.chunk.js"
+    "revision": "b8fe5db57db4b00ed9da",
+    "url": "/haven3.0/static/js/5.23efadc0.chunk.js"
   },
   {
-    "revision": "3bed0611e44af7e0af45",
-    "url": "/haven3.0/static/js/6.15bec41c.chunk.js"
+    "revision": "1cf649d5450b410e06e1",
+    "url": "/haven3.0/static/js/6.fcfd5fc1.chunk.js"
   },
   {
-    "revision": "cd3a547c7b4c81ccc535",
-    "url": "/haven3.0/static/js/7.73742fdb.chunk.js"
+    "revision": "d1fe68e3f7e4da76e2cc",
+    "url": "/haven3.0/static/js/7.aa24cf62.chunk.js"
   },
   {
-    "revision": "1d3d13b408555f354d6c",
-    "url": "/haven3.0/static/js/8.2292880c.chunk.js"
+    "revision": "b7410a85d1c4b8b8ba66",
+    "url": "/haven3.0/static/js/8.11a554d3.chunk.js"
   },
   {
-    "revision": "1e46c7399b7e0f745c91",
-    "url": "/haven3.0/static/js/9.cdf64be7.chunk.js"
+    "revision": "2454dd32361f16906e2b",
+    "url": "/haven3.0/static/js/9.9fe35869.chunk.js"
   },
   {
-    "revision": "6b6a8c51b5d99bbde94a",
-    "url": "/haven3.0/static/js/main.fcd16934.chunk.js"
+    "revision": "c317363220e88c4778f7",
+    "url": "/haven3.0/static/js/main.555f8b2f.chunk.js"
   },
   {
-    "revision": "5540631b48efeae178e5",
-    "url": "/haven3.0/static/js/runtime-main.6808718a.js"
+    "revision": "91c678f668dac7dc138b",
+    "url": "/haven3.0/static/js/runtime-main.3e39fa52.js"
   },
   {
     "revision": "741dc4163a97ffa354979f18802f6ca8",
@@ -202,6 +202,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17d2d05c282ce4c4bbc70aa532ccbc43",
     "url": "/haven3.0/static/media/settings.17d2d05c.svg"
+  },
+  {
+    "revision": "ab3509feb2afc271e100a7c0afd2200c",
+    "url": "/haven3.0/static/media/shorelogo.ab3509fe.png"
+  },
+  {
+    "revision": "cbcaeee7393d6176f5eb8b7163383401",
+    "url": "/haven3.0/static/media/shorelogo1.cbcaeee7.png"
+  },
+  {
+    "revision": "265a8af3de5cab9382742d9dc6afbc9f",
+    "url": "/haven3.0/static/media/shorelogo2.265a8af3.png"
   },
   {
     "revision": "cc1cabc0f6b970c4e64e0ed853115866",
