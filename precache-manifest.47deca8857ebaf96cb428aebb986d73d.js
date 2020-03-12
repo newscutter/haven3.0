@@ -1,67 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ada028c250122af5e0459a400c35aca3",
+    "revision": "a0aee4c0dfb0baa2ea522aa7d3bffb38",
     "url": "/haven3.0/index.html"
   },
   {
-    "revision": "5e3c7e60bd8320a40c60",
+    "revision": "d0871f9f8e9194977185",
     "url": "/haven3.0/static/css/2.8db93472.chunk.css"
   },
   {
-    "revision": "cfd0e8a27ff6f68dc9a7",
-    "url": "/haven3.0/static/js/0.762fe6ff.chunk.js"
+    "revision": "95f28f4792337ffed10c",
+    "url": "/haven3.0/static/js/0.ff31d018.chunk.js"
   },
   {
     "revision": "5054ac8328797d4a27e3914719f138be",
-    "url": "/haven3.0/static/js/0.762fe6ff.chunk.js.LICENSE"
+    "url": "/haven3.0/static/js/0.ff31d018.chunk.js.LICENSE"
   },
   {
-    "revision": "478a05003f3c20ffb24d",
-    "url": "/haven3.0/static/js/1.fd0435b7.chunk.js"
+    "revision": "fa0a88561264d476e0ec",
+    "url": "/haven3.0/static/js/1.3dff3716.chunk.js"
   },
   {
-    "revision": "d664693a12a8f0c08acd",
-    "url": "/haven3.0/static/js/10.9619db51.chunk.js"
+    "revision": "14d3eca1063e527c9f2f",
+    "url": "/haven3.0/static/js/10.9188f694.chunk.js"
   },
   {
-    "revision": "9c5ece3195264025df39",
-    "url": "/haven3.0/static/js/11.7f0373dd.chunk.js"
+    "revision": "eaed3cb16340aa4d4244",
+    "url": "/haven3.0/static/js/11.5c5326e3.chunk.js"
   },
   {
-    "revision": "db8af1041b6dcf629cd6",
-    "url": "/haven3.0/static/js/12.1b75008a.chunk.js"
+    "revision": "21962e6d0731acd026cf",
+    "url": "/haven3.0/static/js/12.c96921d6.chunk.js"
   },
   {
-    "revision": "5e3c7e60bd8320a40c60",
-    "url": "/haven3.0/static/js/2.5f739aa0.chunk.js"
+    "revision": "d0871f9f8e9194977185",
+    "url": "/haven3.0/static/js/2.5e25c30a.chunk.js"
   },
   {
-    "revision": "85b1c9101cc4fb17c8e1",
-    "url": "/haven3.0/static/js/5.8d492d6a.chunk.js"
+    "revision": "b6caacaa5ca8c0e32f6b",
+    "url": "/haven3.0/static/js/5.cc5791c3.chunk.js"
   },
   {
-    "revision": "88702cd246880f20337d",
-    "url": "/haven3.0/static/js/6.5bd15cfa.chunk.js"
+    "revision": "46de3e298651d524128e",
+    "url": "/haven3.0/static/js/6.a248535f.chunk.js"
   },
   {
-    "revision": "1b5b69372f17436c159f",
-    "url": "/haven3.0/static/js/7.5d9798a8.chunk.js"
+    "revision": "98fdc27c903c8c6ae085",
+    "url": "/haven3.0/static/js/7.fe1743d4.chunk.js"
   },
   {
-    "revision": "75c1d574ec0106571833",
-    "url": "/haven3.0/static/js/8.5929c45b.chunk.js"
+    "revision": "5341c5f089dcc4c3ac42",
+    "url": "/haven3.0/static/js/8.30d285f6.chunk.js"
   },
   {
-    "revision": "1444dcc41ed867c04a8f",
-    "url": "/haven3.0/static/js/9.07d86da0.chunk.js"
+    "revision": "32ff3fb10662dff3afff",
+    "url": "/haven3.0/static/js/9.151c89aa.chunk.js"
   },
   {
-    "revision": "7789b4fbc34e0885b0cd",
-    "url": "/haven3.0/static/js/main.1c83c3a0.chunk.js"
+    "revision": "a3ee6c4598b689439f55",
+    "url": "/haven3.0/static/js/main.791684aa.chunk.js"
   },
   {
-    "revision": "ece428165a8d9c1867e0",
-    "url": "/haven3.0/static/js/runtime-main.818e5e0e.js"
+    "revision": "a33c96b27bff19f7dc8d",
+    "url": "/haven3.0/static/js/runtime-main.10fa46f5.js"
   },
   {
     "revision": "741dc4163a97ffa354979f18802f6ca8",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a12c702fa5c5e3ceed33f78e72b9bee",
     "url": "/haven3.0/static/media/Inter-SemiBold.8a12c702.woff"
+  },
+  {
+    "revision": "6509ddba2a332216ebee24486a7a6f1b",
+    "url": "/haven3.0/static/media/QRCode3.6509ddba.png"
   },
   {
     "revision": "b0abfedd6074dc3fc9eb8e2ba407c3b8",
@@ -202,18 +206,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17d2d05c282ce4c4bbc70aa532ccbc43",
     "url": "/haven3.0/static/media/settings.17d2d05c.svg"
-  },
-  {
-    "revision": "ab3509feb2afc271e100a7c0afd2200c",
-    "url": "/haven3.0/static/media/shorelogo.ab3509fe.png"
-  },
-  {
-    "revision": "cbcaeee7393d6176f5eb8b7163383401",
-    "url": "/haven3.0/static/media/shorelogo1.cbcaeee7.png"
-  },
-  {
-    "revision": "265a8af3de5cab9382742d9dc6afbc9f",
-    "url": "/haven3.0/static/media/shorelogo2.265a8af3.png"
   },
   {
     "revision": "cc1cabc0f6b970c4e64e0ed853115866",
