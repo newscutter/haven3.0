@@ -1,67 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1631ca97c10d28ae29d9522b5ed5528d",
+    "revision": "e12af54b096804cd7a2fd9459c2c1e87",
     "url": "/haven3.0/index.html"
   },
   {
-    "revision": "d13f55a87d9f66ecabcc",
+    "revision": "242d021f8e4ffe7aa705",
     "url": "/haven3.0/static/css/2.8db93472.chunk.css"
   },
   {
-    "revision": "e46cf9e907a57c22312e",
-    "url": "/haven3.0/static/js/0.f0c55610.chunk.js"
+    "revision": "0f77ef835a761b308812",
+    "url": "/haven3.0/static/js/0.9eb5df73.chunk.js"
   },
   {
     "revision": "5054ac8328797d4a27e3914719f138be",
-    "url": "/haven3.0/static/js/0.f0c55610.chunk.js.LICENSE"
+    "url": "/haven3.0/static/js/0.9eb5df73.chunk.js.LICENSE"
   },
   {
-    "revision": "f6f80a8f19071494688a",
-    "url": "/haven3.0/static/js/1.ed476778.chunk.js"
+    "revision": "d6d177ea9694fc992210",
+    "url": "/haven3.0/static/js/1.68df0bc8.chunk.js"
   },
   {
-    "revision": "020893bcbf37b2522dfa",
-    "url": "/haven3.0/static/js/10.96db44b1.chunk.js"
+    "revision": "19fa7631ec0e6398d15a",
+    "url": "/haven3.0/static/js/10.d1cc7ac9.chunk.js"
   },
   {
-    "revision": "f036aba969d843eab880",
-    "url": "/haven3.0/static/js/11.e0039483.chunk.js"
+    "revision": "16d644b058c7ef32e545",
+    "url": "/haven3.0/static/js/11.2b922494.chunk.js"
   },
   {
-    "revision": "fed9adf30cc10da5fd71",
-    "url": "/haven3.0/static/js/12.7c6e5f99.chunk.js"
+    "revision": "cea99969d6ee2a5534ac",
+    "url": "/haven3.0/static/js/12.c0de0d53.chunk.js"
   },
   {
-    "revision": "d13f55a87d9f66ecabcc",
-    "url": "/haven3.0/static/js/2.e5a56dc9.chunk.js"
+    "revision": "242d021f8e4ffe7aa705",
+    "url": "/haven3.0/static/js/2.cbd2adfe.chunk.js"
   },
   {
-    "revision": "97bee4180c1c0f08da0c",
-    "url": "/haven3.0/static/js/5.18e21794.chunk.js"
+    "revision": "8baa3b1434538cd4080a",
+    "url": "/haven3.0/static/js/5.f8ab978b.chunk.js"
   },
   {
-    "revision": "ade5d942862a9c83d4f7",
-    "url": "/haven3.0/static/js/6.059e7f28.chunk.js"
+    "revision": "d9a291c368ac0c18e876",
+    "url": "/haven3.0/static/js/6.6dcc5853.chunk.js"
   },
   {
-    "revision": "3626ef8b38afaf7c64ef",
-    "url": "/haven3.0/static/js/7.cf2f76f4.chunk.js"
+    "revision": "1c50bdb21d6ce8fc0618",
+    "url": "/haven3.0/static/js/7.d5f75200.chunk.js"
   },
   {
-    "revision": "f3a2132353dd632cac27",
-    "url": "/haven3.0/static/js/8.39b36f2a.chunk.js"
+    "revision": "bb966f25884f4703fb28",
+    "url": "/haven3.0/static/js/8.38612b99.chunk.js"
   },
   {
-    "revision": "2fb6806f699a84073897",
-    "url": "/haven3.0/static/js/9.1072c26b.chunk.js"
+    "revision": "96eae8bb8464731cbd24",
+    "url": "/haven3.0/static/js/9.3930149c.chunk.js"
   },
   {
-    "revision": "1069ba3974ab7440877d",
-    "url": "/haven3.0/static/js/main.792ffd0b.chunk.js"
+    "revision": "4ce7d3372cb371bcdd35",
+    "url": "/haven3.0/static/js/main.61a93109.chunk.js"
   },
   {
-    "revision": "dfa440a122b88e3712bf",
-    "url": "/haven3.0/static/js/runtime-main.be720f96.js"
+    "revision": "bb29f66c24d548ea7387",
+    "url": "/haven3.0/static/js/runtime-main.54d483d0.js"
   },
   {
     "revision": "741dc4163a97ffa354979f18802f6ca8",
@@ -140,10 +140,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/haven3.0/static/media/dweab.033f7994.png"
   },
   {
-    "revision": "ea53fb224b539c682c06451d7ede2368",
-    "url": "/haven3.0/static/media/ethereum.ea53fb22.svg"
-  },
-  {
     "revision": "0d0a642a82b23ef43d67efce7e252a35",
     "url": "/haven3.0/static/media/exchangeconfirmation.0d0a642a.png"
   },
@@ -206,6 +202,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17d2d05c282ce4c4bbc70aa532ccbc43",
     "url": "/haven3.0/static/media/settings.17d2d05c.svg"
+  },
+  {
+    "revision": "5aff191b0ccd78d4c5cd5322153f2cdc",
+    "url": "/haven3.0/static/media/shoredlogo.5aff191b.png"
+  },
+  {
+    "revision": "6d73276406275b729a88678891f7d03c",
+    "url": "/haven3.0/static/media/shoredlogo1.6d732764.png"
   },
   {
     "revision": "cc1cabc0f6b970c4e64e0ed853115866",
